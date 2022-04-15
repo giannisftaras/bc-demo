@@ -1,0 +1,90 @@
+.adm-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 16px;
+    background: var(--unnamed-color-462667) 0% 0% no-repeat padding-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.adm-header .logo-lnk span {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 17px/21px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+}
+
+.adm-header .nav-link {
+    padding: 5px 12px;
+    color: var(--unnamed-color-aa68c9);
+}
+
+.adm-header .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--unnamed-color-aa68c9);
+}
+
+.admin-page .main-page {
+    margin-top: 70px;
+}
+
+.nest-item {
+    margin-bottom: 12px;
+}
+
+.menu-item > .menu-list .menu-item {
+    margin: 12px 0 12px 40px;
+}
+
+.menu-item .card {
+    transition: border-color .15s ease-in-out;
+}
+
+.menu-item .card:hover, .menu-item.sortable-chosen .card {
+    border-color: var(--unnamed-color-462667);
+}
+
+.menu-item .card-body {
+    display: flex;
+    align-items: center;
+}
+
+.rm-item {
+    background: transparent;
+    border: none;
+    margin-left: auto;
+}
+
+.rm-item svg {
+    pointer-events: none;
+}
+
+.drg-icon {
+    cursor: grab;
+}
+
+#pills-cards .card-title {
+    font-weight: bold;
+}
+
+.mx-cnt {
+    max-width: max-content;
+}
+
+.alert-toast {
+    position: absolute;
+    right: 16px;
+    color: var(--unnamed-color-ffffff);
+}
+
+@media only screen and (max-width: 992px) {
+
+    .adm-header a, .adm-header span {
+        display: none;
+    }
+
+    .admin-page .main-page {
+        margin-top: 100px;
+    }
+
+}
