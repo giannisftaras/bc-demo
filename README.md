@@ -1,2 +1,18 @@
-# bc-demo
-Demo Project
+### Installation instructions
+
+- Clone or download the current repository locally
+- Create a new Virtual Host in your vhosts config file
+<br />Example Apache httpd-vhosts configuration:
+```
+<VirtualHost *:80>
+    DocumentRoot "/var/www/bc-demo/public"
+</VirtualHost>
+```
+- Paste the code to your webserver directory
+- Create a new database named `bc_ftaras_demo`
+- Import the `bc_ftaras_demo.sql` file to the newly created database
+
+------------
+
+You can also find a working demo online using the following link:
+https://bc-demo.giannisftaras.dev
