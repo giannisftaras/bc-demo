@@ -11,8 +11,9 @@
 - Paste the code to your webserver directory
 - Create a new database named `bc_ftaras_demo`
 - Import the `bc_ftaras_demo.sql` file to the newly created database
+- Update the database credentials in `confing/auth.ini`
 
 ------------
 
 You can also find a working demo online using the following link:
-https://bc-demo.giannisftaras.dev
+https://testing-demo-bc.ml
