@@ -1,3 +1,8 @@
+### BC-Demo
+Just a demo project.
+
+------------
+
 ### Installation instructions
 
 - Clone or download the current repository locally
