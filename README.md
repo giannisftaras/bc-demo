@@ -14,6 +14,3 @@
 - Update the database credentials in `confing/auth.ini`
 
 ------------
-
-You can also find a working demo online using the following link:
-https://testing-demo-bc.ml
